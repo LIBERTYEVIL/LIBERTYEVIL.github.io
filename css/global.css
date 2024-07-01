@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.unselectable {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* IE 10+ 和 Edge */
+    user-select: none;         /* 标准语法 */
+  }
+
+.fontsize_big {
+    font-size: 30px;
+}
+
+.icon_insite {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 60px;
+    display: inline;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.fl_L{
+    float: left;
+}
+
+.fl_R{
+    float: right;
+}
+
+.textboxInMiddle {
+    display: flex;            /* 启用Flexbox */
+    flex-direction: column;   /* 子元素垂直排列 */
+    justify-content: space-around; /* 子元素在主轴线上均匀分布，并在两端保留空间 */
+    align-items: flex-start;      /* 子元素在交叉轴上居中对齐 */
+    height: 100%;             /* 父元素需要有确定的高度 */
+}
+
+.theNavBar {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 1px 6px rgba(0, 255, 229, 0.5);
+}
+
+#datetime {
+    margin-left: auto;
+    margin-right: 2em;
+    display: flex;            /* 启用Flexbox */
+    flex-direction: column;   /* 子元素垂直排列 */
+    justify-content: space-around;
+}
