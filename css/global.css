@@ -1,13 +1,23 @@
 * {
     margin: 0;
-    /* background-color: transparent !important; */
-    color: white;
+    color: white;         /* 暗色主题下默认使用白色字体 */
+}
+
+a {
+  text-decoration: none;    /* 去除下划线 */
+  color: inherit;           /* 继承父元素的颜色 */
+  outline: none;            /* 去除点击后的虚线框 */
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;    /* 去除下划线 */
+  color: inherit;           /* 继承父元素的颜色 */
 }
 
 .CommentButtonOnBar {
     display: inline-block;
     position: relative;
-    width: 100px; /* 你可以根据需要调整宽度 */
+    width: 100px;
     margin-left: auto;
 }
 
@@ -48,6 +58,8 @@ time_info * {
 }
 
 .icon_insite {
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: 20px;
     margin-right: 20px;
     height: 60px;
@@ -101,7 +113,6 @@ time_info * {
 }
 
 .datetime {
-    /* margin-left: auto; */
     margin-right: 2em;
     display: flex;            /* 启用Flexbox */
     flex-direction: column;   /* 子元素垂直排列 */
@@ -115,7 +126,48 @@ time_info * {
     width: 80%;
     height: fit-content;
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2px) !important;
     box-shadow: 0px 1px 4px rgba(0, 255, 229, 0.5);
+}
+
+.ItemList_Area {
+    margin: 20px;
+    padding: 20px;
+    width: calc(100% - margin * 2);
+    height: fit-content;
+    border-radius: 20px;
+    box-shadow: 0px 1px 4px rgba(0, 255, 229, 0.5);
+}
+
+.ItemList_Area a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:100%;
+}
+
+.ItemList_Area a * {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.ItemList_Area a .Area_ItemIntro {
+    color: rgba(200, 200, 200, 0.8);
+}
+
+.Areabg_red {
+    background-color: rgba(255, 0, 0, 0.1);
+    box-shadow: 0px 1px 4px rgba(255, 0, 0, 0.5);
+}
+
+.Areabg_blue {
+    background-color: rgba(0, 128, 255, 0.1);
+    box-shadow: 0px 1px 4px rgba(0, 128, 255, 0.5);
+}
+
+.Areabg_green {
+    background-color: rgba(0, 255, 128, 0.1);
+    box-shadow: 0px 1px 4px rgba(0, 255, 128, 0.5);
 }
