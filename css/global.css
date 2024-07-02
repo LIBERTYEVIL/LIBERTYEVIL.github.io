@@ -1,7 +1,15 @@
 * {
     margin: 0;
-    background-color: black;
+    /* background-color: transparent !important; */
     color: white;
+}
+
+time_info {
+    display: none;
+}
+
+time_info * {
+    display: none;
 }
 
 .unselectable {
@@ -27,38 +35,63 @@
 }
 
 .flex-col {
+    display: flex;
     flex-direction: column;
 }
 
-.fl_L{
+.fl_L {
     float: left;
 }
 
-.fl_R{
+.fl_R {
     float: right;
 }
 
+.w_fit {
+    width: fit-content;
+}
+
+.textboxInMiddle_left {
+    display: flex;                  /* 启用Flexbox */
+    flex-direction: column;         /* 子元素垂直排列 */
+    justify-content: space-around;  /* 子元素在主轴线上均匀分布，并在两端保留空间 */
+    align-items: flex-start;        /* 子元素在交叉轴上居中对齐 */
+    height: 100%;                   /* 父元素需要有确定的高度 */
+}
+
 .textboxInMiddle {
-    display: flex;            /* 启用Flexbox */
-    flex-direction: column;   /* 子元素垂直排列 */
-    justify-content: space-around; /* 子元素在主轴线上均匀分布，并在两端保留空间 */
-    align-items: flex-start;      /* 子元素在交叉轴上居中对齐 */
-    height: 100%;             /* 父元素需要有确定的高度 */
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
 }
 
 .theNavBar {
     margin: 0;
     width: 100%;
     display: flex;
-    background-color: rgba(255, 255, 255, 0);
-    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(2px);
     box-shadow: 0px 1px 6px rgba(0, 255, 229, 0.5);
 }
 
-#datetime {
+.datetime {
     margin-left: auto;
     margin-right: 2em;
     display: flex;            /* 启用Flexbox */
     flex-direction: column;   /* 子元素垂直排列 */
     justify-content: space-around;
+}
+
+.main_container {
+    position: relative;
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px) !important;
+    box-shadow: 0px 1px 4px rgba(0, 255, 229, 0.5);
 }

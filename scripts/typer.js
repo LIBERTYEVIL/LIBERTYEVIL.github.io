@@ -1,4 +1,10 @@
-const textArray = ["你好，欢迎来到我的个人博客。", "Welcome to my personal blog.", "希望你会喜欢！"];
+const textArray = [
+  "你好，欢迎来到我的个人博客。", 
+  "Welcome to my personal blog.", 
+  "有的时候我很疯狂！",
+  "Sometimes I'm CRAZY!"
+];
+
 let arrayIndex = 0;
 let letterIndex = 0;
 
@@ -17,7 +23,7 @@ function typein()
     arrayIndex++;
     letterIndex = 0;
     setTimeout(typein, 2500);
-  } 
+  }
   else 
   {
     setTimeout(typein, 200);

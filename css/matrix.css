@@ -1,0 +1,9 @@
+canvas.matrix {
+    position: fixed; /* 固定位置 */
+    background-color: black !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -666; /* 使其位于所有元素的底部 */
+}

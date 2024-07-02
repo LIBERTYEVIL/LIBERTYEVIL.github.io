@@ -7,22 +7,53 @@
 <link rel="shortcut icon" type="image/png" href="webicon.png">
 <link rel="stylesheet" href="css/global.css">
 <link rel="stylesheet" href="css/typer.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/matrix.css">
 
 </head>
 <body>
+  <!-- 背景动画 -->
+  <canvas class="matrix" width='0px' height="0px">
+    Your browser doesn't support the canvas'.
+  </canvas>
+
   <div class="theNavBar">
     <img src="webicon.png" alt="ICON" class="icon_insite">
-    <span class="textboxInMiddle">
+    <span class="textboxInMiddle_left">
       <div class="unselectable fontsize_big">LIBERTYEVIL的个人博客</div>
       <div id="typewriter" class="typer unselectable"></div>
     </span>
-    <span id="datetime"></span>
+    <span class="datetime"></span>
+  </div>
+  <div class="w_fit maxim_jar">
+    <div class="unselectable textboxInMiddle maxim">
+      <span class="maxim_cn">拥抱独立并自由的灵魂与高度自定义化的生命</span>
+      <br>
+      <span class="maxim_en">Enjoy your highly customised life with a liberal spirit.</span>
+    </div>
+    <hr>
   </div>
 
+  <div class="main_container">
+    <h2>·&nbsp;最近更新</h2>
+    <br>
+    <h2>·&nbsp;分类专栏</h2>
+  </div>
   
   
-
+  
+  
   <script src="scripts/typer.js"></script>
   <script src="scripts/timeDisp.js"></script>
+  <script src="scripts/matrix.js"></script>
+  
 </body>
+<time_info>
+  <!-- The information of the update time of the page. -->
+  <year></year>
+  <month></month>
+  <days></days>
+  <hours></hours>
+  <minutes></minutes>
+</time_info>
 </html>

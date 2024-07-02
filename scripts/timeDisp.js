@@ -17,7 +17,10 @@ function updateDateTime() {
                         seconds.toString().padStart(2, '0');
   
     // 更新页面元素
-    document.getElementById('datetime').textContent = dateTimeStr;
+    dateTimeBoxes = document.querySelectorAll('.datetime');
+    dateTimeBoxes.forEach(element => {
+      element.textContent = dateTimeStr;
+    });
   }
   
   // 每秒更新日期和时间

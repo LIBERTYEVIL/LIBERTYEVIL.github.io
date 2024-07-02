@@ -1,0 +1,30 @@
+
+.maxim_jar {
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px) !important;
+    box-shadow: 0px 1px 4px rgba(0, 255, 229, 0.5);
+}
+
+.maxim {
+    margin: 25px;
+}
+
+.maxim .maxim_cn {
+    font-size: 25px;
+}
+
+.maxim .maxim_en {
+    font-size: 20px;
+}
+
+.maxim_jar hr {
+    border: 0;
+    margin: 0 auto;
+    height: 2px;
+    width: 20em;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
