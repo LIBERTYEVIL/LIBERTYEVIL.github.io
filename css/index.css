@@ -1,4 +1,8 @@
-
+@media screen and (max-aspect-ratio: 9/16) and (max-width: 768px) {
+	maxim * {
+		font-size: 0.6em;
+	}
+}
 .maxim_jar {
     margin: 1.875rem auto;
     padding: 1.25rem;
