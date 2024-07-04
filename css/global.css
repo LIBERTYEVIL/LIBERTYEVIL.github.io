@@ -3,6 +3,14 @@
     color: white;         /* 暗色主题下默认使用白色字体 */
 }
 
+html {
+	font-size: 16px;
+}
+
+@media screen {
+	
+}
+
 a {
   text-decoration: none;    /* 去除下划线 */
   color: inherit;           /* 继承父元素的颜色 */
@@ -17,14 +25,14 @@ a:link, a:visited, a:hover, a:active {
 .CommentButtonOnBar {
     display: inline-block;
     position: relative;
-    width: 100px;
+    width: 6.25rem;
     margin-left: auto;
 }
 
 .CommentButtonOnBar i {
     display: inline-block !important;
     margin: 0 auto !important;
-    line-height: 1em;
+    line-height: 1rem;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,7 +41,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .CommentButtonOnBar:hover i {
-    font-size: 1.6em;
+    font-size: 1.6rem;
     text-shadow: 2px 2px 6px rgba(0, 238, 255, 0.6);
     transition: all 0.8s ease;
 }
@@ -54,15 +62,15 @@ time_info * {
   }
 
 .fontsize_big {
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .icon_insite {
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 60px;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    height: 3.75rem;
     display: inline;
 }
 
@@ -113,7 +121,7 @@ time_info * {
 }
 
 .datetime {
-    margin-right: 2em;
+    margin-right: 2rem;
     display: flex;            /* 启用Flexbox */
     flex-direction: column;   /* 子元素垂直排列 */
     justify-content: space-around;
@@ -121,8 +129,8 @@ time_info * {
 
 .main_container {
     position: relative;
-    margin: 30px auto;
-    padding: 20px;
+    margin: 1.875rem auto;
+    padding: 1.25rem;
     width: 80%;
     height: fit-content;
     border-radius: 20px;
@@ -132,8 +140,8 @@ time_info * {
 }
 
 .ItemList_Area {
-    margin: 20px;
-    padding: 20px;
+    margin: 1.25rem;
+    padding: 1.25rem;
     width: calc(100% - margin * 2);
     height: fit-content;
     border-radius: 20px;

@@ -1,7 +1,7 @@
 
 .maxim_jar {
-    margin: 30px auto;
-    padding: 20px;
+    margin: 1.875rem auto;
+    padding: 1.25rem;
     width: 80%;
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.3);
@@ -10,21 +10,21 @@
 }
 
 .maxim {
-    margin: 25px;
+    margin: 1.5rem;
 }
 
 .maxim .maxim_cn {
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 .maxim .maxim_en {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .maxim_jar hr {
     border: 0;
     margin: 0 auto;
-    height: 2px;
-    width: 20em;
+    height: 0;
+    width: 20rem;
     background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
