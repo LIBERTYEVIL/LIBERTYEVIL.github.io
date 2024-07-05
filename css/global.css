@@ -178,7 +178,7 @@ time_info * {
 
 @media screen and (max-aspect-ratio: 9/16) and (max-width: 768px) {
 	.fontsize_big {
-	    font-size: 1.2rem;
+	    font-size: 0.6rem;
 	}
 	
 	.icon_insite {
@@ -191,6 +191,10 @@ time_info * {
 	}
 
     h2 {
-        font-size: 0.7em;
+        font-size: 0.5em;
+    }
+
+    .datetime {
+        font-size: 0.4rem;
     }
 }

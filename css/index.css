@@ -30,7 +30,11 @@
 }
 
 @media screen and (max-aspect-ratio: 9/16) and (max-width: 768px) {
-	maxim * {
-		font-size: 0.6em;
-	}
+	.maxim .maxim_cn {
+        font-size: 0.6rem;
+    }
+    
+    .maxim .maxim_en {
+        font-size: 0.4rem;
+    }
 }
