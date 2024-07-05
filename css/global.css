@@ -7,21 +7,6 @@ html {
 	font-size: 16px;
 }
 
-@media screen and (max-aspect-ratio: 9/16) and (max-width: 768px) {
-	.fontsize_big {
-	    font-size: 1.2rem;
-	}
-	
-	.icon_insite {
-	    margin-top: auto;
-	    margin-bottom: auto;
-	    margin-left: 0.75rem;
-	    margin-right: 0.75rem;
-	    height: 2rem;
-	    display: inline;
-	}
-}
-
 a {
   text-decoration: none;    /* 去除下划线 */
   color: inherit;           /* 继承父元素的颜色 */
@@ -189,4 +174,23 @@ time_info * {
 .Areabg_green {
     background-color: rgba(0, 255, 128, 0.1);
     box-shadow: 0px 1px 4px rgba(0, 255, 128, 0.5);
+}
+
+@media screen and (max-aspect-ratio: 9/16) and (max-width: 768px) {
+	.fontsize_big {
+	    font-size: 1.2rem;
+	}
+	
+	.icon_insite {
+	    margin-top: auto;
+	    margin-bottom: auto;
+	    margin-left: 0.75rem;
+	    margin-right: 0.75rem;
+	    height: 2rem;
+	    display: inline;
+	}
+
+    h2 {
+        font-size: 0.7em;
+    }
 }
