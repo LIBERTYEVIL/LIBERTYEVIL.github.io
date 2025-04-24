@@ -1,8 +1,8 @@
 const textArray = [
-  "你好，欢迎来到我的个人博客。", 
-  "Welcome to my personal blog.", 
-  "有的时候我很疯狂！",
-  "Sometimes I'm CRAZY!"
+  "WELCOME TO L1BERTY3VIL'S.", 
+  "欢迎访问！",
+  "ようこそ！",
+  "방문을 환영합니다!"
 ];
 
 let arrayIndex = 0;
@@ -16,7 +16,7 @@ function typein()
   const currentLetter = currentText.slice(0, ++letterIndex);
 
   // textContent是HTML元素对象的属性，表示该元素的文本内容
-  typewriter.textContent = currentLetter;
+  typewriter.innerHTML = currentLetter;
 
   if(currentLetter.length === currentText.length)
   {
@@ -26,7 +26,7 @@ function typein()
   }
   else 
   {
-    setTimeout(typein, 200);
+    setTimeout(typein, 150);
   }
 
   if(arrayIndex === textArray.length)

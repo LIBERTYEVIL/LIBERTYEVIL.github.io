@@ -1,0 +1,55 @@
+
+/* 0~660px width */
+@media screen and (min-width: 10px) 
+{
+    .Board {
+        width: 100%;
+    }
+    #MyConsole {
+        display: none;
+    }
+}
+
+/* 660~820px width */
+@media screen and (min-width: 660px) 
+{
+    .Board {
+        width: 660px;
+    }
+    #MyConsole {
+        display: none;
+    }
+}
+
+/* 820~1020px width */
+@media screen and (min-width: 820px) 
+{
+    .Board {
+        width: 820px;
+    }
+    #MyConsole {
+        display: none;
+    }
+}
+
+/* 1020~1295px width */
+@media screen and (min-width: 1020px) 
+{
+    .Board {
+        width: 1020px;
+    }
+    #MyConsole {
+        display: block;
+    }
+}
+
+/* 1295+px width */
+@media screen and (min-width: 1295px) 
+{
+    .Board {
+        width: 1295px;
+    }
+    #MyConsole {
+        display: block;
+    }
+}

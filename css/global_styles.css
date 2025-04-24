@@ -1,0 +1,53 @@
+* {
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+body {
+    background-color: #1b1b25;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+    font-size: inherit;
+}
+  
+b, strong {
+    font-weight: normal;
+}
+
+i, em {
+    font-style: normal;
+}
+
+u {
+    text-decoration: none;
+}
+
+del, s {
+    text-decoration: none;
+}
+
+mark {
+    background-color: transparent;
+    color: inherit;
+}
+
+.flexEmpty {
+    flex: 1;
+}
+
+.unselectable {
+    user-select: none;          /* 禁止用户选择文本 */
+    -webkit-user-select: none;  /* 适用于Safari */
+    -moz-user-select: none;     /* 适用于Firefox */
+    -ms-user-select: none;      /* 适用于IE和Edge */
+}
+  

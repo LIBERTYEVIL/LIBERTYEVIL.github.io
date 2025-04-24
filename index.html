@@ -1,98 +1,64 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-<title>LIBERTYEVIL的个人博客</title>
-<link rel="shortcut icon" type="image/png" href="webicon.png">
-
-<!-- 层叠样式表 -->
-<link rel="stylesheet" href="css/global.css">
-<link rel="stylesheet" href="css/typer.css">
-<link rel="stylesheet" href="css/index.css">
-<link rel="stylesheet" href="css/matrix.css">
-<link rel="stylesheet" href="bootstrap5/bootstrap.min.css">
-<link rel="stylesheet" href="fontawesome5/css/all.min.css">
-
-<!-- 外部引用和调用js -->
-<script src="bootstrap5/bootstrap.bundle.min.js"></script>
-<script src="scripts/vue3.global.prod.js"></script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>L1BERTY3VIL'S</title>
+    <link rel="shortcut icon" href="./logos/L1B.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/fonts_define.css">
+    <link rel="stylesheet" href="./css/animations_define.css">
+    <link rel="stylesheet" href="./css/global_styles.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/responsive_layout.css">
+    <link rel="stylesheet" href="./css/myConsole.css">
 </head>
 <body>
-  
-  <!-- 背景动画 -->
-  <canvas class="matrix" width='0px' height="0px"></canvas>
-
-  <div class="theNavBar">
-    <img src="webicon.png" alt="ICON" class="icon_insite">
-    <span class="textboxInMiddle_left">
-      <div class="unselectable fontsize_big">LIBERTYEVIL的个人博客</div>
-      <div id="typewriter" class="typer unselectable"></div>
-    </span>
-    <a href="#" class="CommentButtonOnBar" data-bs-toggle="tooltip" title="留言板暂时不可食用"><i class="fas fa-sharp fa-thin fa-comment fa-2x"></i></a>
-    <span class="datetime"></span>
-  </div>
-  <div class="w_fit maxim_jar">
-    <div class="unselectable textboxInMiddle maxim">
-      <span class="maxim_cn">拥抱独立并自由的灵魂与高度自定义化的生命</span>
-	  <br>
-      <span class="maxim_en">Enjoy your highly customised life with a liberal spirit.</span>
+    <!--------------- The Content Area ------------------------>
+    <div class="Board">
+        <div class="TopNav unselectable">
+            <img src="./logos/L_0.png" alt="" class="navLogo">
+            <div class="navTitle">L1BERTY3VIL'S<i class="navCursor"></i></div>
+        </div>
+        <div id="typewriter" class="Watchword unselectable">
+            WELCOME TO L1BERTY3VIL'S.
+        </div>
+        <div class="MidContainer">
+            <div id="ContentBlock" class="ContentBlock">
+                <div class="TitleCard">
+                    我的笔记 - MY NOTES
+                </div>
+                <div class="CardLine">
+                    <a class="LinkCard">
+                        <h2>C/C++</h2>
+                    </a>
+                    <a class="LinkCard">
+                        <h2>Java</h2>
+                    </a>
+                </div>
+                <div class="CardLine">
+                    <a class="LinkCard">
+                        <h2>Python</h2>
+                    </a>
+                    <a class="LinkCard">
+                        <h2>JavaScript</h2>
+                    </a>
+                </div>
+                <div class="CardLine">
+                    <a class="LinkCard">
+                        <h2>Linux</h2>
+                    </a>
+                    <a class="LinkCard">
+                        <h2>所有主题 > </h2>
+                    </a>
+                </div>
+            </div>
+            <div id="MyConsole"></div>
+        </div>
+        <div class="EndContainer"></div>
     </div>
-    <hr>
-  </div>
-
-  <div class="main_container">
-    <div id="main_LatestArticles">
-      <h2>·&nbsp;最近更新</h2>
-      <br>
-
-      <pre>
-        <code>
-        // 这是一个示例代码
-        function helloWorld() {
-          console.log("Hello, world!");
-        }
-        </code>
-      </pre>
-
-      <div class="ItemList_Area">
-        <a href="#">
-          <h4>第一个贴子即将发布在这里</h4>
-          <p class="Area_ItemIntro">什么档次看我的博客，给我睁大眼睛瞧好咯！</p>
-          <p class="Area_ItemTime"></p>
-        </a>
-      </div>
-
-    </div>
-    
-    <div id="main_ClassifiedColumns">
-      <h2>·&nbsp;分类专栏</h2>
-      <div class="alert alert-danger">
-        正在开发，敬请期待。
-      </div>
-    </div>
-    <p id="viewport-width"></p>
-	<br>
-	<p id="viewport-height"></p>
-  </div>
-  
-  
-  <!-- 非函数引用逻辑js部分 -->
-  
-  <script src="scripts/typer.js"></script>
-  <script src="scripts/timeDisp.js"></script>
-  <script src="scripts/matrix.js"></script>
-  <script src="scripts/index.js"></script>
-  
+    <!--------------- The Scripts ----------------------------->
+    <div id="viewport-size"></div>
+    <script src="./scripts/typer.js"></script>
+    <script src="./scripts/myConsole.js"></script>
 </body>
-<time_info>
-  <!-- The information of the update time of the page. -->
-  <year></year>
-  <month></month>
-  <days></days>
-  <hours></hours>
-  <minutes></minutes>
-</time_info>
 </html>
