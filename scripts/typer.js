@@ -1,7 +1,7 @@
 const textArray = [
-  "WELCOME TO L1BERTY3VIL'S.", 
-  "欢迎访问！",
-  "ようこそ！",
+  "WELCOME HERE!", 
+  "欢迎访问!",
+  "ようこそ!",
   "방문을 환영합니다!"
 ];
 

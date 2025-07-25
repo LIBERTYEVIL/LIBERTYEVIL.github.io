@@ -1,9 +1,17 @@
 
 /* 0~660px width */
-@media screen and (min-width: 10px) 
+@media screen and (max-width: 660px) 
 {
     .Board {
         width: 100%;
+    }
+    .Watchword {
+        min-height: 40px;
+        font-size: 20px;
+    }
+    .MidContainer > .ContentBlock > .TitleCard {
+        font-size: 20px;
+        height: 30px;
     }
     #MyConsole {
         display: none;
@@ -11,7 +19,7 @@
 }
 
 /* 660~820px width */
-@media screen and (min-width: 660px) 
+@media screen and (min-width: 661px) 
 {
     .Board {
         width: 660px;
