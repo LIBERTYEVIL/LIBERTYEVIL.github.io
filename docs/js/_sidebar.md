@@ -1,2 +1,1 @@
-* [JavaScript概述](Js_intro.md)
-
+* [JavaScript概述](Js_intro.md#)
