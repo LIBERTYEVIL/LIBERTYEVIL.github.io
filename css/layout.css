@@ -104,6 +104,7 @@
 
 .LinkCard:hover {
     background-color: #10032860;
+    gap: 10px;
 }
 
 .LinkCard:active {
@@ -120,39 +121,30 @@
     justify-content: center;
 }
 
-/* .cpp {
-    background-image: radial-gradient(#a70ea933 80%, #1100ff55 100%);
-    background-size: 425%;
+.LinkCard:hover .lkcLogo_py {
+    animation: lkcLogo_ani_py 2s linear infinite;
 }
 
-.cpp:hover {
-    background-image: radial-gradient(#a70ea933 80%, #1100ff55 100%);
-    background-size: 900%;
+.LinkCard:hover .lkcLogo_lin {
+    animation: lkcLogo_ani_lin 1s linear infinite;
 }
 
-.js {
-
+.LinkCard:hover .lkcLogo_java {
+    animation: lkcLogo_ani_scale 2s linear infinite;
 }
 
-.py {
-    background-image: linear-gradient(150deg, rgba(0, 0, 255, 0.2) 20%, rgba(255, 217, 0, 0.2) 100%);
+.LinkCard:hover .lkcLogo_c {
+    animation: lkcLogo_ani_scale 1s linear infinite;
 }
 
-.py:hover {
-    background-image: linear-gradient(160deg, rgba(0, 0, 255, 0.2) 18%, rgba(255, 217, 0, 0.2) 100%);
+.LinkCard:hover .lkcLogo_js {
+    animation: lkcLogo_ani_scale 0.8s linear infinite;
 }
 
-.java {
-    
+.LinkCard:hover .lkcLogo_all {
+    animation: lkcLogo_ani_all 1.5s linear infinite;
 }
 
-.linux {
-    
-}
-
-.all {
-    
-} */
 
 #MyConsole {
     width: 380px;

@@ -4,3 +4,60 @@
         border-color: white;
     }
 }
+
+@keyframes lkcLogo_ani_py {
+    25% {
+        rotate: 90deg;
+    }
+    50% {
+        rotate: 180deg;
+    }
+    75% {
+        rotate: 270deg;
+    }
+    100% {
+        rotate: 360deg;
+    }
+}
+
+@keyframes lkcLogo_ani_lin {
+    25% {
+        rotate: -10deg;
+    }
+    75% {
+        rotate: 10deg;
+    }
+}
+
+@keyframes lkcLogo_ani_scale {
+        50% {
+            scale: 0.8;
+        }
+    }
+
+@keyframes lkcLogo_ani_all {
+    50% {
+        scale: 0.7;
+        opacity: 60%;
+        filter: brightness(-0.5);
+    }
+}
+
+@media screen and (max-width: 660px) 
+{
+    
+
+    @keyframes lkcLogo_ani_scale {
+        50% {
+            scale: 1.6;
+        }
+    }
+
+    @keyframes lkcLogo_ani_all {
+        50% {
+            scale: 1.4;
+            opacity: 60%;
+            filter: brightness(-0.5);
+        }
+    }
+}

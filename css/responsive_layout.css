@@ -13,6 +13,22 @@
         font-size: 20px;
         height: 30px;
     }
+    .LinkCard .lkcLogo {
+        height: 24px;
+        scale: 1.8;
+    }
+    .LinkCard .lkcLogo_js {
+        height: 24px;
+        scale: 1.5;
+    }
+    .LinkCard .lkcLogo_java {
+        height: 24px;
+        scale: 2.0;
+    }
+    .LinkCard h2 {
+        justify-content: flex-end;
+        font-size: small;
+    }
     #MyConsole {
         display: none;
     }
