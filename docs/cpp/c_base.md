@@ -76,12 +76,12 @@
 ### 1. 基本变量类型及关键字
 - char类型存储的是一个字符的ASCII码，所以也是整形数据
 - char类型的变量参与运算时按照所存字符的ASCII码以整数型参与运算
-- 
-![1_basicVarTypes|100%]("./images/1_basicVarTypes.png")
+
+<img src="./images/1_basicVarTypes.png" width="100%">
 
 其中long和long修饰的数据类型的变量可能在不同系统占用不同的空间。
 
-![1_varsizedifference|100%]("./images/1_varsizedifference.jpg")
+<img src="./images/1_varsizedifference.jpg" width="100%">
 
 ### 2. 变量的定义和初始化
 C语言程序中定义后没有初始化的局部变量不会自动初始化为默认值，其中可能包含内存中的各种垃圾数据。全局变量和静态变量的默认初始化值为0，其中指针变量默认为NULL。
