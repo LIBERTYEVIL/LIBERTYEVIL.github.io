@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    /* background-color: black;
+    color: red; */
+    color: rgb(178, 0, 98);
+}
+
+body {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg, rgb(255, 191, 191), rgb(196, 196, 249));
+    transition: all 0.5s linear;
+}
+
+.msgbox {
+    min-width: 250px;
+    margin: 12px;
+    padding: 0.5em 10px;
+    border: 1px solid rgb(178, 0, 98);
+    border-radius: 1em;
+    box-shadow: 1px 1px 3px 3px rgba(178, 0, 98, 0.5);
+    animation: load_msgb 0.5s linear forwards;
+    position: absolute;
+    transition: all 0.5s linear;
+    backdrop-filter: blur(4px);
+    background-color: #00000000;
+    text-shadow: 0px 0px 1px rgb(178, 0, 98);;
+}
+
+.anim_start {
+    animation: load_msgb 0.5s linear forwards;
+}
+
+.anim_end {
+    animation: remove_msgb 0.5s linear forwards;
+}
+
+.msgbox > .msgb_icons {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: 1em;
+}
+
+.icon_0 {
+    display: inline-block;
+    margin: 0.2em 0.1em;
+    width: 0.5em;
+    height: 0.5em;
+    background-color: red;
+    border-radius: 50%;
+    align-self: center;
+    box-shadow: 0 0 1px 1px rgb(178, 0, 98);;
+}
+
+.msgbox > .msgb_icons > .msgb_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0.6em;
+    height: 100%;
+    font-size: 0.6em;
+    font-weight: 500;
+}
+
+.msgbox > .msgb_txt {
+    padding: 0 1em;
+    margin: 5px 0;
+}
+
+.initmsgb {
+    position: relative;
+}
+
+.initmsgb > .btn-le {
+    position: absolute;
+    right: 1.5em;
+    bottom: 0.5em;
+}
+
+.btn-le {
+    padding: 0.2em 0.8em;
+    border: 1px solid rgb(246, 145, 255);
+    border-radius: 1em;
+    box-shadow: 1px 1px 3px 3px rgb(248, 176, 255);
+    background-color: #ffffff00;
+}
+
+.btn-le:hover {
+    background-color: rgba(0, 200, 255, 0.2);
+}
+
+.btn-le:active {
+    border-color: rgba(139, 0, 69, 0.25);
+    box-shadow: rgb(139, 0, 69);;
+    background-color: rgba(192, 0, 185, 0.2);
+}
+
+.m-0a{
+    margin: 0 auto;
+}
+
+.full-x {
+    display: flex;
+    width: 100%;
+}
+
+.full-y {
+    display: flex;
+    height: 100vh;
+}
+
+.flex-center {
+    justify-content: center;
+    align-content: center;
+}
+
+.flex-fill {
+    flex: 1;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+#BGM_player {
+    display: none;
+}
