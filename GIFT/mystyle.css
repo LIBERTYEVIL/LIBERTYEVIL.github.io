@@ -6,6 +6,22 @@
     /* background-color: black;
     color: red; */
     color: rgb(178, 0, 98);
+
+    user-select: none; /* 禁止用户选择文本 */
+    -webkit-user-select: none; /* 适用于Safari */
+    -moz-user-select: none; /* 适用于Firefox */
+    -ms-user-select: none; /* 适用于IE和Edge */
+}
+
+@media screen and (max-width: 660px) {
+    *{
+        font-size: 14px;
+    }
+    .msgbox {
+        min-width: 50px;
+        margin: 10px;
+        padding: 0.5em 8px;
+    }
 }
 
 body {
